@@ -1,0 +1,76 @@
+.h1-about {
+    text-align: center;
+    font-family: Varela Round;
+    margin-top: 40px;
+}
+.main-content-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.content-photo {
+    display: flex;
+    flex-direction: column;
+}
+.picture {
+    width: 500px;
+    margin-left: 60px;
+    z-index: 999;
+    border-radius: 5px;
+}
+.angle {
+    width: 120px;
+    z-index: 0;
+}
+.angle2 {
+    margin-left: 500px;
+}
+.content-txt-about {
+    margin-left: 50px;
+    width: 500px;
+    font-family: Varela Round;   
+    line-height: 1.5rem;
+}
+.second-title {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.h3-about {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .main-content-about {
+        flex-direction: column;
+    }
+    .content-photo {
+        align-items: center;
+    }
+    .angle,.angle2 {
+        display: none;
+    }
+    .picture {
+        width: 90%;
+        margin: 0;
+        border-radius: 5px;
+    }
+    .txt-about {
+        width: 300px;
+        text-align: center;
+        margin: 0;
+    }
+    .content-txt-about {
+        margin: 20px 0 10px 0;
+        width: auto;
+    }
+    .txt-about {
+        text-align: left;
+        font-size: 0.9rem;
+    }
+    .third-content-txt-about {
+        margin-top: 35px;
+    }
+}

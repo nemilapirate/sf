@@ -1,0 +1,56 @@
+.content-logo-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-logo {
+    width: 200px;
+}
+.content-social {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+}
+.logo-social {
+    width: 35px;
+}
+
+/* Navbar */
+
+.content-navbar {
+    height: 50px;
+    font-size: 1.6rem;
+    display: flex;
+    padding-right: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #3d82a4;
+    font-family: Ubuntu;
+    border-radius: 15px;
+}
+.navbar-link {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    color: white;
+    margin-left: 60px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.navbar-link:hover {
+    border-bottom: 2px solid white;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .content-navbar {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        height: auto;
+        border-radius: 0;
+    }
+    .navbar-link {
+        margin: 0;
+        margin: 5px 0 10px 0;
+    }
+}
