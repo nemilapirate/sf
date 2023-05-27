@@ -1,0 +1,61 @@
+.content-formation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+.img-formation {
+    border-radius: 5px;
+}
+.txt-formation {
+    width: 50%;
+    line-height: 23px;
+    margin: 0;
+}
+.separation {
+    height: 30px;
+}
+.content-separation2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.second-content-formation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.content-txt-formation{
+    margin-left: 40px;
+}
+.txt-section-formation {
+    width: 95%;
+}
+.title-presta {
+    font-family: Ubuntu;
+    font-size: 1.1rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .content-formation {
+        flex-direction: column;
+        margin: 30px 0 30px 0;
+    }
+    .img-formation{
+        margin: 15px 0 15px 0;
+    }
+    .txt-formation{
+        width: 90%;
+    }
+    .second-content-formation {
+        margin-top: 30px;
+    }
+    .txt-section-formation {
+        margin: 0;
+        width: 95%;
+    }
+    .title-presta {
+        padding: 0 0 0 10px;
+    }
+}
